@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'Lato', 'Open Sans', 'PT Sans', sans-serif;
+}
+h2, h4, h6, th, td, tr {
+    text-align: center;
+}
+/* Section Seller Form Starts */
+#books, #branchSel, #yearSemSel, #booksSel{
+    min-width: 400px;
+}
+label {
+    margin: 0.5em 0.5em 0 0.5em;
+}
+#seller-form fieldset {
+    margin: 1%;
+    text-align: center;
+}
+#seller-form button {
+    font-size: 17px;
+    padding: 0.1% 0.8%;
+    margin: 0.5em;
+    background-color: white;
+    color: black;
+    border: 1px solid #4201ce;
+    border-radius: 20px;
+    transition-duration: 0.6s;
+}
+#seller-form button:hover {
+    border-color: #00c95a;
+}
+/* Section Seller Form Ends */
+
+/* Section Book Description Table Starts*/
+#book-description-table {
+    margin: 1%;
+}
+#book-description-table tr, td, th{
+    vertical-align: middle !important;
+    font-size: 18px;
+}
+#book-description-table img{
+    height: 40px;
+}
+/* Section Book Description Table Ends*/
